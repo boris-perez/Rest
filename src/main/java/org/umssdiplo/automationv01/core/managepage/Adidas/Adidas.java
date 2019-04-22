@@ -30,10 +30,8 @@ public class Adidas extends BasePage {
     }
 
     public void tallaSection() {
-        CommonEvents.clickButton(editIcon);
-        String name1 = PropertyAccessor.getInstance().getName1();
-        CommonEvents.setInputField(names, name1);
-        CommonEvents.clickButton(submit);
+        CommonEvents.clickButton(futbol);
+        CommonEvents.clickButton(talla);
     }
 
     public void selectTalla(){
