@@ -33,6 +33,10 @@ public class CommonEvents {
         webElement.click();
     }
 
+    public static void hoverButton(WebElement webElement) {
+        ManageDriver.getInstance().getWebDriverWait().until(ExpectedConditions.elementToBeClickable(webElement));
+    }
+
     /**
      * This method perform a click in a non visible element in the UI.
      *
