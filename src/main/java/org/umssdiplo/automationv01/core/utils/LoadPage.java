@@ -2,7 +2,6 @@ package org.umssdiplo.automationv01.core.utils;
 
 import org.umssdiplo.automationv01.core.customwebdriver.ManageDriver;
 import org.umssdiplo.automationv01.core.managepage.Adidas.Adidas;
-import org.umssdiplo.automationv01.core.managepage.Login.Login;
 
 public final class LoadPage {
     public static Adidas loginPage() {

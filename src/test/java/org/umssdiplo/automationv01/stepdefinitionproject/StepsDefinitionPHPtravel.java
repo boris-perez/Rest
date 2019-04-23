@@ -11,7 +11,7 @@ public class StepsDefinitionPHPtravel {
 
     @Given("^'PHP travel' page is loaded$")
     public void phpTravelPageIsLoaded() throws Throwable {
-        login = LoadPage.loginPage();
+       // login = LoadPage.loginPage();
     }
 
     @And("^set my credentials on 'Login' page$")
